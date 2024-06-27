@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(./Palestine_Flag_ap_img.jpg);
+    background-repeat: no-repeat; 
+    background-size:cover; 
+    background-position: center calc(100%+20px); 
+    background-attachment: fixed;
+    color: white;
+}
+header {
+    background-color: black; 
+    font-size: 1.5em;
+    margin-bottom: 50px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1500px;
+    margin: auto;
+    padding: 0 1em;
+}
+ ul {
+    list-style:none;
+    display: flex;
+    gap: 1.5em;
+}
+ a {
+    color: white;
+    text-decoration:none;
+}
+
+.box {
+    text-align: center;
+    padding: 5em 0; 
+}
+
+.box-content {
+    background: rgba(0, 0, 0, 0.7); 
+    padding: 3em;
+    border-radius: 10px;
+    display:inline-block;
+    
+}
+.btn-donate {
+    padding: 1em ;
+    background:green;
+    color: white;
+    text-decoration:none;
+    border-radius: 10px;
+}
+h2{
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
